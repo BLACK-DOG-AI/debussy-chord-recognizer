@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Color palette */
+
+:root {
+    --blue-50: #ebeeed;
+    --blue-100: #c5c5c8;
+    --blue-200: #a3a3ae;
+    --blue-300: #878289;
+    --blue-400: #5e6372;
+    --blue-500: #345454;
+    --blue-600: #313f48;
+    --blue-700: #262338;
+    --blue-800: #1e262b;
+    --blue-900: #171d21;
+}

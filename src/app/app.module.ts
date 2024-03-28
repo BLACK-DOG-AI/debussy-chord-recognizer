@@ -3,14 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ChordRecognizerMainPageModule } from './chord-recognizer-main-page/chord-recognizer-main-page.module';
+import { MenuModule } from './menu/menu.module';
 
 @NgModule({
-  declarations: [
+  declarations: [		
     AppComponent
-  ],
+   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ChordRecognizerMainPageModule,
+    MenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
