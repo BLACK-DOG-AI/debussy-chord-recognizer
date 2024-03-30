@@ -14,7 +14,8 @@ import { MenuModule } from './menu/menu.module';
     BrowserModule,
     AppRoutingModule,
     ChordRecognizerMainPageModule,
-    MenuModule
+    MenuModule,
+    ChordRecognizerMainPageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

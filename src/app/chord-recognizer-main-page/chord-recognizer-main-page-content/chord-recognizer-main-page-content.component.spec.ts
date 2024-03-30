@@ -3,21 +3,21 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { ChordRecoginzerMainPageContentComponent } from './chord-recoginzer-main-page-content.component';
+import { ChordRecognizerMainPageContentComponent } from './chord-recognizer-main-page-content.component';
 
-describe('ChordRecoginzerMainPageContentComponent', () => {
-  let component: ChordRecoginzerMainPageContentComponent;
-  let fixture: ComponentFixture<ChordRecoginzerMainPageContentComponent>;
+describe('ChordRecognizerMainPageContentComponent', () => {
+  let component: ChordRecognizerMainPageContentComponent;
+  let fixture: ComponentFixture<ChordRecognizerMainPageContentComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ChordRecoginzerMainPageContentComponent ]
+      declarations: [ ChordRecognizerMainPageContentComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ChordRecoginzerMainPageContentComponent);
+    fixture = TestBed.createComponent(ChordRecognizerMainPageContentComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
